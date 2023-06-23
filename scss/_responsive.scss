@@ -120,6 +120,30 @@
 }
 
 @media all and (max-width: 450px) {
+  main {
+
+    & > #right-side {
+
+      & > #bg-of-img {
+        width: 70%;
+      }
+
+      & > #girl-photo {
+        width: 150%;
+      }
+
+      & > #course-hours-div {
+        width: 120px;
+        left: -10px;
+      }
+
+      & > #members-div {
+        width: 120px;
+        right: -10px;
+      }
+    } 
+  }
+
   footer {
     
     & > nav {
@@ -159,14 +183,16 @@
  }
 
 @media all and (max-width: 400px) {
- section {
+  
 
-   & > article {
+  section {
 
-     &:hover {
+    & > article {
 
-       & > svg {
-         left: 80%;
+      &:hover {
+
+        & > svg {
+          left: 80%;
        }
      }
    }
