@@ -1,0 +1,140 @@
+/* START Responsive Section */
+@media all and (max-width: 992px) {
+  main {
+    display: block;
+
+    & > #left-side {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    & > #right-side {
+      width: 100%;
+    }
+  }
+
+  section {
+
+    & > article {
+
+      &:hover {
+  
+        & > svg {
+          left: 75%;
+        }
+      }
+
+      & > div {
+
+        & > div {
+
+          & > a {
+
+            &:hover {
+              padding: 3px 10px;
+            }
+          }
+        }
+      }
+    }
+
+    & > article:first-child {
+      font-size: 40px;
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  main {
+
+    & > #right-side {
+
+      & > div {
+        width: 140px;
+
+        & > h4 {
+          font-size: 16px;
+        }
+
+        & > p {
+          font-size: 18px;
+        }
+      }
+
+      & > #course-hours-div {
+        left: 30px;
+      }
+  
+      & > #members-div {
+        right: 30px;
+      }
+    }
+  }
+
+  section {
+
+    & > article {
+      width: 48%;
+    }
+  }
+}
+
+@media all and (max-width: 610px) {
+   header {
+    padding: 0 20px;
+   }
+
+  main {
+    padding: 30px 20px;
+
+    & > #right-side {
+
+      & > #course-hours-div {
+        left: 5px;
+      }
+  
+      & > #members-div {
+        right: 5px;
+      }
+    }
+  }
+
+  section {
+    padding: 30px 20px;
+
+    & > article {
+      width: 100%;
+
+      &:hover {
+
+        & > svg {
+          left: 85%;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 30px 20px;
+  }
+}
+
+@media all and (max-width: 400px) {
+ section {
+
+   & > article {
+
+     &:hover {
+
+       & > svg {
+         left: 80%;
+       }
+     }
+   }
+ }
+
+ footer {
+   padding: 30px 20px;
+ }
+}
+/* END Responsive Section */
