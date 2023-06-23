@@ -119,6 +119,45 @@
   }
 }
 
+@media all and (max-width: 450px) {
+  footer {
+    
+    & > nav {
+
+      & > ul {
+
+        & > li {
+
+          & > a {
+            display: flex;
+
+
+            & > button {
+              font-size: 16px;
+              padding: 5px;
+            }
+          }
+
+          & > #social-media-links {
+
+            & > li {
+
+              & > a {
+
+                & > svg {
+                  padding: 2px;
+                  width: 1.6rem;
+                  height: 1.6rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+ }
+
 @media all and (max-width: 400px) {
  section {
 
@@ -131,10 +170,6 @@
        }
      }
    }
- }
-
- footer {
-   padding: 30px 20px;
  }
 }
 /* END Responsive Section */
